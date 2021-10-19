@@ -19,6 +19,7 @@ export class Home extends Component {
 
 
   componentDidMount() {
+    document.title = 'Aprendendo-React';
     this.loadPosts();
   }
 
