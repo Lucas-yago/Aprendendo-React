@@ -1,0 +1,14 @@
+.postCard {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0 , 0.1);
+    transition: transform 70ms ease-in-out;
+    border-radius: 5px;
+  }
+  .postCard:hover{
+    transform: scale(1.05);
+  }
+  
+  .postCard img{
+  
+    max-width: 100%;
+  }
